@@ -21,7 +21,7 @@ header, main, footer {
 header {
     margin-bottom: 10px;
 }
-header h1, main h3, footer {
+header, main h3, footer {
     background: #204251;
     color:aliceblue;
     text-align: center;
