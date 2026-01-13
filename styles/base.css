@@ -51,6 +51,10 @@ nav a {
     color: #ffffff;
 }
 
+nav a:hover {
+    color: yellow;
+}
+
 main {
     display: grid;
     grid-template: auto auto/ 1fr 1fr 1fr;
@@ -166,6 +170,11 @@ figcaption {
     align-items: end;
     margin: 60px 15px;
 }
+.right-section a:hover {
+    font-weight: bolder;
+    color: rgb(30, 85, 96);
+}
+
 
 footer {
     padding: 20px;
