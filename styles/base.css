@@ -7,14 +7,15 @@
 
 body {
     margin: 0 auto;
-    max-width: 980px;
     display: grid;
     grid-template: auto 300px 100px;
     font-family: "Handlee", cursive;
     font-weight: 400;
     font-style: normal;
 }
-
+header, main, footer {
+    max-width: 980px;
+}
 header h1, main h3, footer {
     background: #204251;
     color:aliceblue;
