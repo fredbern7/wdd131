@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD 131 - Berny Fred</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals</h1>
+        <nav>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">T-Learn</a></li>
+                <li><a href="#">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Berny Fred</h2>
+        <div class="left-section">
+            <h3>About Me</h3>
+            <div class="about-me">
+                <p>
+                    Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nesciunt sequi magnam saepe eveniet quibusdam tempora natus beatae laborum harum!ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, error itaque? Ipsam, voluptatem soluta dignissimos dicta magnam est commodi nam?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, numquam?
+                </p>
+            </div>
+            <div class="me-image">
+                <img src="images/berny.jpg" alt="berny fred">
+            </div>
+            <div class="my-place">
+                <h4>Kolonia, Pohnpei</h4>
+                <figure>
+                    <img src="images/pohnpei.gif" alt="me">
+                    <figcaption>Pohnpei Flag</figcaption>
+                </figure>
+                <div class="my-place-desc">
+                    <p>
+                        Pohnpei is an island in the Federated States of Micronesia. It is known for its lush landscapes, ancient ruins, and vibrant culture. As my hometown, it holds a special place in my heart.
+                        Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <h3>Web Dev Resources</h3>
+            <ul>
+                <li><a href="link">Dev.to Community</a></li>
+                <li><a href="link">Smashing Magazine</a></li>
+                <li><a href="link">CSS Tricks</a></li>
+                <li><a href="link">W3 Schools</a></li>
+                <li><a href="link">Udemy</a></li>
+                <li><a href="link">Others</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>
+            @2026 | Berny Fred | Pohnpei
+        </p>
+        <p class="yellow">
+            Last Modification: <span id="last-modified"></span>
+        </p>
+    </footer>
 </body>
 </html>
