@@ -112,9 +112,6 @@ main p {
 .left-section .me-image {
     grid-column: 3/4;
     grid-row: 2/4;
-    display: flex;
-    justify-content: baseline;
-    align-items: baseline;
     padding: 10px;
 }
 
