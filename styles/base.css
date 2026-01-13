@@ -8,7 +8,7 @@
 body {
     margin: 0 auto;
     display: grid;
-    grid-template: auto 300px 100px;
+    grid-template: auto auto auto;
     font-family: "Handlee", cursive;
     font-weight: 400;
     font-style: normal;
