@@ -119,12 +119,6 @@ figcaption {
 
 /* footer here */
 footer {
+	background-color:cadetblue;
     text-align: center;
-}
-
-footer p:nth-child(1) {
-}
-
-footer p:nth-child(2) {
-    color: gold;
 }
