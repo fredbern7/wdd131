@@ -18,34 +18,7 @@ header h1 {
     font-size: medium;
     font-weight: 700;
 }
-nav {
-    margin: 0 auto;
-    margin-top: 5rem;
-    max-width: 100%;
-}
-.navigation {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #020202;
-    align-items: center;
-}
-.navigation li {
-    flex: 1 1 auto;
-}
-.navigation a {
-    font-weight: 700;
-    display: block;
-    color: #eee;
-    padding: 0.75rem;
-    text-decoration: none;
-    text-align: center;
-}
 
-.navigation a:hover {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-}
 main, aside {
     height: 400px;
     padding: 1rem;
