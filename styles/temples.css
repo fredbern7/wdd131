@@ -67,7 +67,7 @@ nav {
 .navigation a {
 	display: block;
 	padding: 0.75rem;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	color: azure;
 	font-weight: 700;
@@ -94,7 +94,7 @@ main {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 1.45rem;
 	color :cadetblue;
 }
 figure {
