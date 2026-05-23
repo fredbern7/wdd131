@@ -44,12 +44,10 @@
 	}
 
 	hr {
-		width: 90%;
 		margin: 0 auto;
 	}
-	
+
 	.images-container {
-		width: 90%;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
@@ -57,7 +55,7 @@
 	}
 
 	figure {
-		max-width: 300px;
+		max-width: 250px;
 	}
 }
 
