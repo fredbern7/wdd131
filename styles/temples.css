@@ -109,14 +109,12 @@ figure {
 	width: 100%;
 }
 
-figure:hover {
-	box-shadow: 0 0 50px #333;;
-}
-
-
-figure img	{
+figure img {
 	width: 100%;
 	box-shadow: 10px 10px 10px rgba(245, 244, 244, 0.12);
+}
+figure img:hover {
+	box-shadow: 0 0 50px #333;;
 }
 
 figcaption {
