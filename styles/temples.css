@@ -17,7 +17,7 @@ header {
 	display: grid;
 	justify-content: space-between;
 	grid-template-areas: 1fr 1fr/ 1fr 1fr;
-	background-color:cadetblue;
+	background-color:rgb(21, 61, 42);
 	padding: 0 .5rem;
 }
 
@@ -95,7 +95,7 @@ main {
 
 h1 {
 	font-size: 1.45rem;
-	color :cadetblue;
+	color:rgb(21, 61, 42);
 }
 figure {
 	display: block;
@@ -103,12 +103,13 @@ figure {
 	border-radius: 0.125rem;
 	padding: 1rem;
 	width: 100%;
-	background-color:cadetblue;
+	background-color:rgb(21, 61, 42);
 	box-shadow: 10px 10px 5px rgb(0 0 0 /0.1);
 }
 
 figure img	{
-	width: 100%
+	width: 100%;
+	box-shadow: 10px 10px 10px rgba(245, 244, 244, 0.12);
 }
 
 figcaption {
@@ -119,6 +120,6 @@ figcaption {
 
 /* footer here */
 footer {
-	background-color:cadetblue;
+	background-color:rgb(21, 61, 42);
     text-align: center;
 }
