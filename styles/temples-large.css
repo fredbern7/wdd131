@@ -3,7 +3,7 @@
 	header {
 		margin-top: 1rem;
 		display: grid;
-		grid-template-areas: 1fr /auto auto auto auto auto auto;
+		grid-template: 1fr /auto auto auto auto auto auto;
 	}
 
 	.title {
