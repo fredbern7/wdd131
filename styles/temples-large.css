@@ -41,19 +41,5 @@
 
 	}
 
-	hr {
-		margin: 0 auto;
-	}
-
-	.images-container {
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-	}
-
-	figure {
-		max-width: 250px;
-	}
 }
 
