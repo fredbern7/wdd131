@@ -42,8 +42,15 @@
 	.images-container {
 		width: 90%;
 	}
+
+	section {
+		border: .1rem solid green;
+	}
+	section p {
+		font-size: .8rem;
+	}
 	section img {
-  		height: 8rem;
+  		height: 10rem;
   		overflow: hidden; 
 	}
 

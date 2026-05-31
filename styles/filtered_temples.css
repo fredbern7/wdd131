@@ -118,6 +118,10 @@ section {
 	box-shadow: 10px 10px 10px rgba(9, 4, 4, 0.352);
 }
 
+section:hover {
+	box-shadow: 0 0 10px #333;;
+}
+
 section h3 {
 	padding: .5rem;
 }
@@ -132,10 +136,6 @@ section p {
 section img {
 	margin-top: 1rem;
 	width: 100%;
-}
-
-section:hover {
-	box-shadow: 0 0 50px #333;;
 }
 
 /* footer here */
