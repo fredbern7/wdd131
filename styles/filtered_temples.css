@@ -13,7 +13,8 @@
 body {
 	font-family: Roboto, sans-serif;
 }
-header, footer, footer span {
+
+header, nav a, footer, footer span {
 	background-color: var(--color2);
 	color: var(--color3);
 }
@@ -49,6 +50,7 @@ header {
 
 #menu::before {
 	content: "≡";
+	color: var(--color3);
 }
 
 nav {
@@ -89,6 +91,7 @@ nav {
 
 #menu.show::before {
 	content: "X";
+	color: var(--color3);
 }
 
 main {
