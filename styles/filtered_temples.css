@@ -8,17 +8,21 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: var(--color1);
 }
+
 body {
 	font-family: Roboto, sans-serif;
+}
+header, footer, footer span {
+	background-color: var(--color2);
+	color: var(--color3);
 }
 
 header {
 	display: grid;
 	justify-content: space-between;
 	grid-template: 1fr/ auto auto;
-	background-color: var(--color2);
+
 	padding: 0 .5rem;
 }
 
@@ -27,7 +31,6 @@ header {
 	grid-column: 1/2;
 	padding: .5rem;
 	font-size: 1.5rem;
-	color: var(--color3);
 }
 
 
@@ -42,7 +45,6 @@ header {
 	font-weight: 700;
 	text-decoration: none;
 	padding: 0.5rem 0.75rem;
-	color: var(--color3);
 }
 
 #menu::before {
@@ -70,7 +72,6 @@ nav {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
-	color: var(--color3);
 	text-decoration: none;
 	font-weight: 700;
 	transition: 0.5s;
@@ -158,11 +159,9 @@ section img {
 /* footer here */
 footer {
 	margin: 1.125rem 0;
-	background-color: var(--color2);
     text-align: center;
 	padding: 1rem;
 }
 footer p, footer span {
 	padding: .1rem;
-	color: var(--color3);
 }
