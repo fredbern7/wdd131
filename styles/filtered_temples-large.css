@@ -24,6 +24,7 @@
 
 	.navigation {
 		display: flex;
+		flex-wrap: nowrap;
 	}
 	.navigation li {
 		display: block; /* change state in small view */
