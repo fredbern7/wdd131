@@ -1,9 +1,13 @@
+:root {
+	--color1: #000;
+	--color2: #093109;
+	--color3: #fdfdfd;
+}
 @media only screen and (min-width: 40em) {
-	
 	header {
 		margin-top: 1rem;
 		display: grid;
-		grid-template: 1fr /auto auto auto auto auto auto;
+		grid-template: 1fr / auto;
 	}
 
 	.title {
@@ -14,7 +18,7 @@
 		width: 100%;
 		justify-content: right;
 		grid-row: 1/2;
-		grid-column: 2/7;
+		grid-column: 2/3;
 	}
 
 	.navigation {
@@ -25,6 +29,7 @@
 		flex: 1 1 100%;
 	}
 	.navigation a {
+		width: 7rem;
 		text-align: center;
 		font-size: 1.125rem;
 		font-weight: 400;
@@ -44,7 +49,7 @@
 	}
 
 	section {
-		border: .1rem solid green;
+		border: .1rem solid var(--color2);
 	}
 	section p {
 		font-size: .8rem;

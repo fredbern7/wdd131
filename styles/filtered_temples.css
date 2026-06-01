@@ -1,8 +1,14 @@
+:root {
+	--color1: #000;
+	--color2: #093109;
+	--color3: #fdfdfd;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: rgb(17, 18, 18);
+	color: var(--color1);
 }
 body {
 	font-family: Roboto, sans-serif;
@@ -12,7 +18,7 @@ header {
 	display: grid;
 	justify-content: space-between;
 	grid-template: 1fr/ auto auto;
-	background-color:rgb(21, 61, 42);
+	background-color: var(--color2);
 	padding: 0 .5rem;
 }
 
@@ -21,7 +27,7 @@ header {
 	grid-column: 1/2;
 	padding: .5rem;
 	font-size: 1.5rem;
-	color: aliceblue;
+	color: var(--color3);
 }
 
 
@@ -36,7 +42,7 @@ header {
 	font-weight: 700;
 	text-decoration: none;
 	padding: 0.5rem 0.75rem;
-	color: azure;
+	color: var(--color3);
 }
 
 #menu::before {
@@ -65,7 +71,6 @@ nav {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: azure;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size:1.125rem;
@@ -73,8 +78,7 @@ nav {
 
 .navigation a:hover,
 .navigation a:active {
-	color: white;
-	background-color: black;
+	background-color: var(--color1);
 }
 
 .show li {
@@ -95,7 +99,7 @@ h1 {
 	padding: 1rem;
 	text-align: center;
 	font-size: 1.45rem;
-	color:rgb(21, 61, 42);
+	color: var(--color2);
 }
 
 .images-container {
@@ -109,18 +113,18 @@ h1 {
 section {
 	display: block;
 	margin: 0 3px;
-	border: .5rem rgb(6, 33, 24) solid;
+	border: .5rem var(--color2) solid;
 	border-radius: 0.125rem;
 	padding: .5rem;
 	width: 100%;
 	max-width: 300px;
-	color: black;
+	color: var(--color1);
 	text-align: center;
 	box-shadow: 10px 10px 10px rgba(9, 4, 4, 0.352);
 }
 
 section:hover {
-	box-shadow: 0 0 10px #333;;
+	box-shadow: 0 0 10px var(--color1);
 }
 
 section h3 {
@@ -137,7 +141,7 @@ section p {
 section img {
 	margin-top: 1rem;
 	width: 100%;
-	background-color: #000;
+	background-color: var(--color1);
 	animation: fade 15s;
 }
 
@@ -152,11 +156,11 @@ section img {
 /* footer here */
 footer {
 	margin: 1.125rem 0;
-	background-color:rgb(21, 61, 42);
+	background-color: var(--color2);
     text-align: center;
 	padding: 1rem;
 }
 footer p, footer span {
 	padding: .1rem;
-	color: aliceblue;
+	color: var(--color3);
 }
