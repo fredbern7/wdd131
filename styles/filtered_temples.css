@@ -147,7 +147,7 @@ section img {
 	margin-top: 1rem;
 	width: 100%;
 	background-color: var(--color1);
-	animation: fade 0.5s ease-in-out;
+	animation: fade 5s ease-in-out;
 	aspect-ratio: 400 / 250;
 }
 
