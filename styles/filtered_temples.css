@@ -113,6 +113,7 @@ section {
 	border-radius: 0.125rem;
 	padding: .5rem;
 	width: 100%;
+	max-width: 300px;
 	color: black;
 	text-align: center;
 	box-shadow: 10px 10px 10px rgba(9, 4, 4, 0.352);

@@ -98,22 +98,25 @@ homePage.addEventListener('click', function(even) {
 oldTemple.addEventListener('click', function(even) {
   event.preventDefault();
   document.querySelector(".images-container").innerHTML = ""
-  console.log("old")
+  createTempleCard(temples.filter(temple => parseInt(temple.dedicated) <= 2000));
 });
 
 newTemple.addEventListener('click', function(even) {
   event.preventDefault();
-  console.log("new")
+  document.querySelector(".images-container").innerHTML = ""
+  createTempleCard(temples.filter(temple => parseInt(temple.dedicated) >= 2000));
 });
 
 large.addEventListener('click', function(even) {
   event.preventDefault();
-  console.log("large")
+  document.querySelector(".images-container").innerHTML = ""
+  createTempleCard(temples.filter(temple => temple.area >= 90000));
 });
 
 small.addEventListener('click', function(even) {
   event.preventDefault();
-  console.log("small")
+  document.querySelector(".images-container").innerHTML = ""
+  createTempleCard(temples.filter(temple => temple.area <= 10000));
 });
 
 createTempleCard(temples);
