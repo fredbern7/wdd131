@@ -136,8 +136,18 @@ section p {
 section img {
 	margin-top: 1rem;
 	width: 100%;
+	background-color: #000;
+	animation: fade 15s;
 }
 
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 /* footer here */
 footer {
 	margin: 1.125rem 0;

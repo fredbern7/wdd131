@@ -56,6 +56,30 @@ const temples = [
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
   // Add three more temple objects here...
+  {
+    templeName: "Nuku'alofa Tonga",
+    location: "Nuku'alofa, Tonga",
+    dedicated: "1983, August, 9",
+    area: 21184,
+    imageUrl:
+    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nukualofa-tonga/400x250/nukualofa-tonga-temple-lds-435567-wallpaper.jpg",
+  },
+  {
+    templeName: "Manila Philippines",
+    location: "Quezon City, Philippines",
+    dedicated: "1984, September, 25",
+    area: 26683,
+    imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/400x250/manila-philippines-temple-lds-129585-wallpaper.jpg"
+  },
+  {
+    templeName: "Accra Ghana",
+    location: "Accra, Ghana",
+    dedicated: "2004, January, 11",
+    area: 17500,
+    imageUrl:
+    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/320x180/accra-ghana-temple-detail-249022-2400x1200.jpg"
+  }
 ];
 
 const homePage = document.getElementById("home");
