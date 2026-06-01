@@ -24,10 +24,10 @@
 
 	.navigation {
 		display: flex;
-		flex-wrap: nowrap;
+		justify-content: space-evenly;
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: flex; /* change state in small view */
 	}
 	.navigation a {
 		width: 7rem;
