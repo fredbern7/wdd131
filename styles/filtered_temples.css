@@ -128,7 +128,7 @@ section:hover {
 	box-shadow: 0 0 10px var(--color1);
 }
 
-section h3 {
+section h2 {
 	padding: .5rem;
 }
 section p {
