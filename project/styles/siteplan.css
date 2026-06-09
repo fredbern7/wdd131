@@ -68,7 +68,7 @@ main {
 
 img {
     background-color: rgb(255, 255, 255);
-    border: .3rem dashed rgb(222, 183, 12);
+    border: .01rem dashed rgb(25, 25, 24);
     padding: 1rem 0;
     height: auto;
     width: 100%;
