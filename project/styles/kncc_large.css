@@ -1,0 +1,85 @@
+
+@media only screen and (min-width: 40em) {
+	header {
+		margin-top: 1rem;
+		display: grid;
+		grid-template: 1fr / auto;
+	}
+
+	.title {
+		font-weight: 400;
+	}
+
+	nav {
+		display: flex;
+		width: 100%;
+		justify-content: right;
+		grid-row: 1/2;
+		grid-column: 2/3;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.navigation li {
+		display: flex;
+	}
+	.navigation a {
+		width: 9rem;
+		text-align: center;
+		font-size: 1.125rem;
+		font-weight: 400;
+	}
+	#menu {
+		display: none;
+		width: 10px;
+	}
+	.hero {
+		margin-top: 1rem;
+	}
+	h1 {
+		margin: 2rem 0 .5rem 0;
+		font-size: 2rem;
+		text-align: center;
+	}
+
+/* home page starts here */
+.home p {
+	font-size: 1.125rem;
+}
+.home .figure-one {
+	position: relative;
+	width: 15rem;
+	float: right;
+}
+
+.home .figure-two {
+	position: relative;
+	margin: 1rem 1rem 1rem 0;
+	float: left;
+	width: 20rem;
+}
+
+.home .figure-three {
+	position: relative;
+	margin: 1rem 1rem 1rem 0;
+	width: 20rem;
+	float:inline-start;
+}
+
+/* home page ends here */
+	section {
+		border: .1rem solid var(--color2);
+	}
+	section p {
+		font-size: .8rem;
+	}
+	section img {
+  		height: 10rem;
+  		overflow: hidden; 
+	}
+
+
+}
+

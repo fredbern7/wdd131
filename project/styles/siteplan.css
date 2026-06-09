@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ p, li {
+    padding: .5rem 0;
+    font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3 {
+    margin-top: 2rem;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+li {
+    margin-left: 1.5rem;
+}
+
+header, footer {
+    background-color: rgb(222, 183, 12);
+}
+
+header, main, footer {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+main {
+    background-color: azure;
+}
+
+.schema {
+    display: grid;
+    grid-template: 1fr / 10rem 10rem;
+    margin: .5rem 0;
+    width: 12rem;
+}
+
+.schema p {
+    padding: 1rem;
+    text-align: center;
+}
+.color-title {
+    margin: 0;
+    border: .01rem solid rgb(21, 21, 20);
+    grid-column: 1/2;
+}
+.color-code {
+    grid-column: 2/3;
+    margin: 0;
+    border: .01rem solid rgb(21, 21, 20);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: .3rem dashed rgb(222, 183, 12);
+    padding: 1rem 0;
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+	padding: 1rem;
+}
+footer p, footer span {
+	padding: .1rem;
+}

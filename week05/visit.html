@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>You have visited this page <span id="counter"></span> times.</p>
+
+<script>
+let visits = localStorage.getItem("g");
+
+if (visits === null) {
+  visits = 1;
+} else {
+  visits = parseInt(visits) + 1;
+}
+
+localStorage.setItem("g", visits);
+
+document.getElementById("counter").textContent = visits;
+</script>
+
+</body>
+</html>
