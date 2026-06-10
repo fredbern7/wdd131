@@ -33,7 +33,8 @@ const products = [
 const select = document.querySelector("#product");
 
 products.forEach(product => {
-    const option = document.createElement("option")
+    const option = document.createElement("option");
+    option.innerHTML = `<option value="" disabled>Choose a product ...</option>`;
     console.log(product.name)
     id = product.name;
     name = product.name;
