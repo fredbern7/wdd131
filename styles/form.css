@@ -11,7 +11,7 @@ label {
     font-size: .9rem;
 }
 
-input[type="label"],
+input[type="select"],
 input[type="tel"],
 input[type="email"],
 input[type="date"],
@@ -20,5 +20,9 @@ input[type="checkbox"],
 input[type="textarea"],
 input[type="text"]
 {
+background-color: brown;
+}
+
+input[type="select"]:first-child:disabled {
     background-color: brown;
 }

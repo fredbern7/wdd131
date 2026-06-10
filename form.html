@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review</title>
+    <meta name="author" content="Berny Fred">
     <meta name="description" content="This page presents the requirements for creating a Product Review form in a best practice.">
     <script src="scripts/form.js" defer></script>
     <link rel="stylesheet" href="styles/form.css">
@@ -13,15 +14,14 @@
         <h1>Assignment: Form</h1>
     </header>
     <main>
-        <form action="thanks.html" method="get">
+        <form action="review.html" method="get">
             <h2>Product Review</h2>
             <label for="product">Product Name
                 <select name="product" id="product" required>
-                    <!-- 
-                    will be replaced by array that will be
-                    loaded from js file
-                    -->
+                    <option value="">Choose a product ...</option>
+
                 </select>
+            </label>
             <label>
                 <div>
                     Overall Rating 

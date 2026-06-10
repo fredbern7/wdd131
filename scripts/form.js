@@ -31,21 +31,18 @@ const products = [
     }
 ];
 const select = document.querySelector("#product");
-let option1 = document.createElement("option");
-option1.innerHTML = `
-    <option value="" disabled>Choose a product ...</option>
-   `;
-select.appendChild(option1)
-for (const product in products) {
-    let option = document.createElement("option");
-    id = products[product].id;
-    name = products[product].name;
-    rating = products[product].averagerating;
+
+products.forEach(product => {
+    const option = document.createElement("option")
+    console.log(product.name)
+    id = product.name;
+    name = product.name;
+    rating = product.averagerating;
     option.innerHTML = `
         <option value="${name}" id="${id}">${name}</option>
     `;
-    select.appendChild(option);
-}
+    select.add(option);
+});
 
 // localStorage code here
 
