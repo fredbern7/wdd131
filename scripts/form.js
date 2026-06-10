@@ -31,9 +31,9 @@ const products = [
     }
 ];
 const select = document.querySelector("#product");
-const option = document.createElement("option");
-option.innerHTML = `<option value="" disabled selected>Choose a product ...</option>`;
-select.appendChild(option) 
+// const option = document.createElement("option");
+// option.innerHTML = `<option value="" disabled selected>Choose a product ...</option>`;
+// select.appendChild(option) 
 products.forEach(product => {
     const option = document.createElement("option");
     console.log(product.name);
