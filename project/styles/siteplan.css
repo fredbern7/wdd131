@@ -44,6 +44,10 @@ main {
     background-color: azure;
 }
 
+.logo {
+    width: 100px;
+}
+
 .schema {
     display: grid;
     grid-template: 1fr / 10rem 10rem;
