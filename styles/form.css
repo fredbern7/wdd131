@@ -1,0 +1,24 @@
+div {
+    padding-top: 1rem;
+    color: blueviolet;
+    font-size: 0 .9rem;
+}
+
+label {
+    display: block;  
+    padding-top: 1rem;
+    color: brown;
+    font-size: .9rem;
+}
+
+input[type="label"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+input[type="textarea"],
+input[type="text"]
+{
+    background-color: brown;
+}
