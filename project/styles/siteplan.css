@@ -66,6 +66,37 @@ main {
     border: .01rem solid rgb(21, 21, 20);
 }
 
+.primary {
+    background-color:  #1F150C;
+    color: #fdfdfd;
+}
+
+.secondary {
+   background-color: #412D15;
+   color: #fdfdfd;
+}
+
+.thirdery {
+    background-color: #D9C4B0;
+}
+
+.fourth {
+    background-color: #E1DCC9;
+}
+
+.fifth {
+    background-color: #109d21;
+}
+
+.text-color-white {
+    background-color: #fdfdfd;
+}
+
+.text-color-white {
+    background-color:  #000000;
+    color: #fdfdfd;
+}
+
 img {
     background-color: rgb(255, 255, 255);
     border: .01rem dashed rgb(25, 25, 24);
