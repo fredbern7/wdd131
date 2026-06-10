@@ -31,11 +31,12 @@ const products = [
     }
 ];
 const select = document.querySelector("#product");
-
+const option = document.createElement("option");
+option.innerHTML = `<option value="" disabled>Choose a product ...</option>`;
+select.appendChild(option) 
 products.forEach(product => {
     const option = document.createElement("option");
-    option.innerHTML = `<option value="" disabled>Choose a product ...</option>`;
-    console.log(product.name)
+    console.log(product.name);
     id = product.name;
     name = product.name;
     rating = product.averagerating;
