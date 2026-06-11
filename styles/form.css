@@ -1,7 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+header, footer {
+    text-align: center;
+    background-color: rgb(18, 8, 8);
+    color: aliceblue;
+    padding: 2rem 0;
+}
+
 form {
-    width: 20rem;
-    max-width: 24rem;
-    padding: 2rem;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+form h2  {
+
+    padding: 2rem 0;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
 }
 
 div {
@@ -21,7 +47,6 @@ input[type="select"],
 input[type="tel"],
 input[type="email"],
 input[type="date"],
-input[type="radio"],
 input[type="checkbox"],
 input[type="textarea"],
 input[type="text"],
@@ -30,16 +55,26 @@ input[type="submit"]
 background-color: rgba(184, 218, 161, 0.584);
 }
 
-input[type="select"]:first-child:disabled {
-    background-color: brown;
+.rating {
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+.rating label {
+    width: 100%;
+}
+
+input[type="radio"] {
+    display: block;
 }
 
 @media only screen and (min-width: 40em) {
     header, main, footer {
+        margin: 0 auto;
         width: 40em;
     }
     form {
         margin: 1rem auto;
-        background-color: beige;
+        width: 24rem;
     }
 }
