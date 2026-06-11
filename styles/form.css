@@ -65,7 +65,7 @@ input[type="submit"]
 .bold {
     font-weight: bold;
 }
-#header {
+#header h1{
     margin: 2rem auto;
     font-size: 1rem;
 }
