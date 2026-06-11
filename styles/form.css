@@ -16,57 +16,55 @@ header, footer {
 }
 
 form {
-    padding: 1rem;
+    padding: 1.5rem;
     width: 100%;
-    border: 1px solid black;
-    
+    border-radius: .4rem;
+    background-color: aliceblue;
+    box-shadow: .3rem .3rem .3rem .3rem rgb(58, 41, 15);
 }
 
-form h2  {
-
-    padding: 2rem 0;
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
-}
-
-div {
-    padding-top: 1rem;
-    color: blueviolet;
+label, p {
     font-size: .9rem;
 }
 
-label {
-    display: block;  
-    padding-top: 1rem;
-    color: brown;
-    font-size: .9rem;
-}
-
-input[type="select"],
-input[type="tel"],
-input[type="email"],
-input[type="date"],
-input[type="checkbox"],
-input[type="textarea"],
+select,
+input[type="date"], 
+textarea,
 input[type="text"],
 input[type="submit"]
 {
-background-color: rgba(184, 218, 161, 0.584);
-}
-
-.rating {
-    display: inline-flex;
-    justify-content:space-around;
-}
-
-.rating label {
+    border-radius: .5rem;
+    font-size: .9rem;
+    padding: .5rem;
     width: 100%;
+    background-color: rgba(203, 187, 187, 0.312);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input[type="radio"] {
+.product, .rating, .date, .features, .review, .name, input[type="submit"]{
+    display: block;
+    margin-top: 1.2rem;
+}
+
+.radio-div {
+    display: flex;
+    justify-content:space-between;
+}
+.radio-div label {
+    text-align: center;
+}
+.radio-div input[type="radio"] {
     display: block;
 }
+
+.checkbox label{
+    display: block;
+    margin: .5rem 1rem;
+}
+
+
+
+
 
 @media only screen and (min-width: 40em) {
     header, main, footer {
