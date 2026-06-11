@@ -31,20 +31,47 @@ const products = [
     }
 ];
 const select = document.querySelector("#product");
-// const option = document.createElement("option");
-// option.innerHTML = `<option value="" disabled selected>Choose a product ...</option>`;
-// select.appendChild(option) 
+
 products.forEach(product => {
     const option = document.createElement("option");
-    console.log(product.name);
-    id = product.name;
-    name = product.name;
-    rating = product.averagerating;
-    option.innerHTML = `
-        <option value="${name}" id="${id}">${name}</option>
-    `;
-    select.add(option);
+    option.value = product.name;
+    option.id = product.name;
+    option.textContent = product.name;
+    select.appendChild(option);
 });
+
 
 // localStorage code here
 
+const formData = document.getElementById("form");
+
+formData.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const product = document.getElementById("product").value;
+    const date = document.getElementById("date").value;
+    const review = document.getElementById("review").value;
+    const name = document.getElementById("name").value;
+
+    const selectedRadio = document.querySelector('input[name="rating"]:checked');
+    const rating = selectedRadio ? selectedRadio.value : '';
+    
+    const features = [];
+    const checkedBoxes = document.querySelectorAll('.checkbox input[type="checkbox"]:checked');
+    checkedBoxes.forEach(checkbox => {
+        features.push(checkbox.id); 
+    });
+
+    const formPayload = {
+        product: product,
+        rating: rating,
+        date: date,
+        features: features,
+        review: review,
+        name: name
+    };
+
+    localStorage.setItem('userData', JSON.stringify(formPayload));
+    
+    // Redirect using the original formData element's action attribute
+    window.location.href = formData.getAttribute('action');
+});
