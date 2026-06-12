@@ -12,7 +12,7 @@ const products = [
     description: "10 inches turtle good small size to have in your office.",
     price: "10",
     imageUrl:
-    "images/turtle.jpg",
+    "images/turtle.webp",
     filter: "turtle"
   },
   {
@@ -20,7 +20,7 @@ const products = [
     description: "12 inches grouper good small size to have in your office.",
     price: "10",
     imageUrl:
-    "images/shark.jpg",
+    "images/shark.webp",
     filter: "shark"
   },
   {
@@ -28,7 +28,7 @@ const products = [
     description: "6 inches length for each of them. ",
     price: "5 each",
     imageUrl:
-    "images/small-fish.jpg",
+    "images/small-fish.webp",
     filter: "fish"
   },
   {
@@ -36,7 +36,7 @@ const products = [
     description: "15 inches shark",
     price: "35",
     imageUrl:
-    "images/shark-two.jpg",
+    "images/shark-two.webp",
     filter: "shark"
   },
   {
@@ -44,7 +44,7 @@ const products = [
     description: "5 inches turtles.",
     price: "5 each",
     imageUrl:
-    "images/small-turtles.jpg",
+    "images/small-turtles.webp",
     filter: "turtle"
   },
   {
@@ -52,7 +52,7 @@ const products = [
     description: "8 inches heigh 14 inches long tray. Hang in you office",
     price: "35",
     imageUrl:
-    "images/tray-one.jpg",
+    "images/tray-one.webp",
     filter: "shark"
   },
   {
@@ -60,7 +60,7 @@ const products = [
     description: "10 inches long canoe",
     price: "10",
     imageUrl:
-    "images/canoe-a.jpg",
+    "images/canoe-a.webp",
     filter: "canoe"
   },
   {
@@ -68,7 +68,7 @@ const products = [
     description: "13 inches hook",
     price: "10",
     imageUrl:
-    "images/hook-one.jpg",
+    "images/hook-one.webp",
     filter: "hook"
   },
   {
@@ -76,7 +76,7 @@ const products = [
     description: " 5 inches cup.",
     price: "20 each",
     imageUrl:
-    "images/cups.jpg",
+    "images/cups.webp",
     filter: "cup"
   },
   {
@@ -84,7 +84,7 @@ const products = [
     description: "Size: 4in x 7in. Handmade purse",
     price: "28.75",
     imageUrl:
-    "images/purse.jpg",
+    "images/purse.webp",
     filter: "purse"
   },
   {
@@ -92,7 +92,7 @@ const products = [
     description: "10 feet long hammock and max-width of 5 feet.",
     price: "10",
     imageUrl:
-    "images/hammock.jpg",
+    "images/hammock.webp",
     filter: "hammock"
   },
   {
@@ -100,7 +100,7 @@ const products = [
     description: "Size: 20in x 14in trap.",
     price: "10",
     imageUrl:
-    "images/trap.jpg",
+    "images/trap.webp",
     filter: "trap"
   },
   {
@@ -108,7 +108,7 @@ const products = [
     description: "36 inches tuna",
     price: "175",
     imageUrl:
-    "images/tuna.jpg",
+    "images/tuna.webp",
     filter: "shark"
   },
   {
@@ -116,7 +116,7 @@ const products = [
     description: "- brown flowers",
     price: "10",
     imageUrl:
-    "images/lei.jpg",
+    "images/lei.webp",
     filter: "lei"
   }
   ,
@@ -125,7 +125,7 @@ const products = [
     description: "- red flowers",
     price: "10",
     imageUrl:
-    "images/lei-two.jpg",
+    "images/lei-two.webp",
     filter: "lei"
   }
   ,
@@ -134,7 +134,7 @@ const products = [
     description: "- yellow and red flowers",
     price: "10",
     imageUrl:
-    "images/lei-three.jpg",
+    "images/lei-three.webp",
     filter: "lei"
   },
   {
@@ -142,7 +142,7 @@ const products = [
     description: "- blue and yellow flowers",
     price: "10",
     imageUrl:
-    "images/lei-four.jpg",
+    "images/lei-four.webp",
     filter: "lei"
   }
 ];
