@@ -202,6 +202,8 @@ function createProductCard(products) {
         img.setAttribute("src", product.imageUrl);
         img.setAttribute("alt", `${product.name}`);
         img.setAttribute("loading", "lazy");
+        img.setAttribute("height", 200);
+        img.setAttribute("width", 400);
 
         card.appendChild(img);
         card.appendChild(name);

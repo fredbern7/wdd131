@@ -37,7 +37,7 @@ function createHero(heros) {
         let img = document.createElement("img")
         img.setAttribute("src", hero.image_large);
         img.setAttribute("alt", `${hero.h1}`);
-        // img.setAttribute("loading", "lazy");
+        img.setAttribute("loading", "lazy");
         heroDiv.appendChild(img);
         document.querySelector(".hero").appendChild(heroDiv);
         })
