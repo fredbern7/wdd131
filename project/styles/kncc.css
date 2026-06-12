@@ -16,6 +16,9 @@
     box-sizing: border-box;
 }
 
+.bold {
+	font-weight: bold;
+}
 body {
   font-family: var(--fontFamily);
   font-size: var(--weight400);
@@ -245,6 +248,51 @@ section img {
 		opacity: 1;
 	}
 }
+
+/* Contact page */
+.div-form, .div-contact, .div-map {
+	display: block;
+	margin-bottom: .1rem;
+	padding: 1rem 0;
+}
+
+.div-contact h2, .div-map h2{
+	padding: .5rem 0;
+}
+.kncc-form {
+	
+	margin: 0 auto;
+	padding: 1rem;
+	border-radius: .6rem;
+	width: 100%;
+	max-width: 28rem;
+	background-color: #D9C4B0;
+}
+
+
+.name, .email, .comment {
+	display: block;
+	margin: 1rem 0;
+}
+
+input[type='text'], input[type='email'], textarea, input[type='submit']
+{
+	display: block;
+	border-radius: .6rem;
+	padding: .9rem;
+	width: 100%;
+	font-size: 1.125rem;
+
+}
+
+.map {
+	display: block;
+	width: 100%;
+	max-width: 53rem;
+	height: 15rem;
+}
+
+
 /* footer here */
 footer {
 	margin: 1.125rem 0;
