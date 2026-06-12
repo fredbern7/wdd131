@@ -2,7 +2,7 @@
 heros = [
     {
         'h1': 'KNCC Home Page',
-        'image_large': 'images/hero-one-large.jpg',
+        'image_large': 'images/hero_large.webp',
         'image_medium': 'images/hero_a_medium',
         'image_small': 'images/hero_a_small',
         'intro':'Welcome to KNCC Home Page. Please, tour around in this store by click the links above. We are excited to have you here to see what we have install for you.',
