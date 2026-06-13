@@ -83,10 +83,12 @@
 	/* contact page */
 	.contact-page-container {
 		display: grid;
-		grid-template: auto auto / auto auto;
+		grid-template: auto auto / 1fr auto;
+		gap: .5rem;
 	}
 
 	.div-form {
+		border: .1rem dashed gray;
 		grid-column: 2/3;
 		grid-row: 1/3;
 	}
@@ -94,11 +96,13 @@
 		height: 10rem;
 	}
 	.div-contact {
+		border: .1rem dashed gray;
 		grid-column: 1/2;
 		grid-row: 1/2;
 	} 
 	
 	.div-map {
+		border: .1rem dashed gray;
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}

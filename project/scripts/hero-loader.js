@@ -2,11 +2,7 @@
 heros = [
     {
         'h1': 'KNCC Home Page',
-        'image_large': 'images/hero_large.webp',
-        'image_medium': 'images/hero_a_medium',
-        'image_small': 'images/hero_a_small',
-        'intro':'Welcome to KNCC Home Page. Please, tour around in this store by click the links above. We are excited to have you here to see what we have install for you.',
-        'navigate': '#intro'
+        'image_large': 'images/hero_large.webp'
     }
  
 ]
@@ -30,8 +26,9 @@ heros = [
 
 createHero(heros);
 
-function createHero(heros) {
 
+function createHero(heros) {
+    const hero_section = document.querySelector("#hero");
     heros.forEach(hero => {
         let heroDiv = document.createElement("picture");
         let img = document.createElement("img")
@@ -39,7 +36,7 @@ function createHero(heros) {
         img.setAttribute("alt", `${hero.h1}`);
         img.setAttribute("loading", "lazy");
         heroDiv.appendChild(img);
-        document.querySelector(".hero").appendChild(heroDiv);
+        hero_section.appendChild(heroDiv);
         })
     }
 
