@@ -293,6 +293,40 @@ input[type='text'], input[type='email'], textarea, input[type='submit']
 }
 
 
+/* Thank you page */
+.form_message {
+	margin: 0 auto;
+	padding: 1rem;
+	width: 100%;
+	max-width: 20rem;
+	box-shadow: .1rem .1rem .1rem  .1rem gray;
+	border-radius: 1rem;
+}
+
+.form_message h2 {
+	font-size: 1.125rem;
+}
+
+#close {
+	float: right;
+	background-color: rgb(165, 63, 63);
+	width: 1.5rem;
+	border-radius: .5rem;
+	box-shadow: .1rem .1rem .1rem .1rem gray;
+}
+
+#close:hover {
+	color:white;
+	background-color: red;
+}
+
+#close a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
 /* footer here */
 footer {
 	margin: 1.125rem 0;

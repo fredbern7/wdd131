@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles/kncc_large.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/kncc.css">
     <link rel="stylesheet" href="styles/kncc_large.css" media="screen and (min-width: 768px)">
-    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/minNav.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
 <header>
@@ -32,26 +33,23 @@
     <h1>Contact Us Page</h1>
     <div class="contact-page-container">
     <div class="div-form">
-        <form action="thankyou.html" method="get" id="kncc_form" class="kncc-form">
-            <h2>
-                Contact Us
-            </h2>
+    <form action="thankyou.html" method="get" id="form" class="kncc-form">
+
             <label for="name" class="name">
-                Name*
+                Name
                 <input type="text" name="name" id="name">
             </label>
             <label for="email" class="email">
                 Email*
                 <input type="text" name="email" id="email">
             </label>
-            <label for="comment" class="comment" id="comment">
-                Comment*
-                <textarea name="comment" id="comment">
 
-                </textarea>
+            <label for="review" class="comment">
+                Comment*
+                <textarea name="comment" id="comment"></textarea>
             </label>
-            <input type="submit" value="Post my Comment">
-        </form>
+            <input type="submit" value="Post My Comment">
+    </form>
     </div>
     <div class="div-contact">
         <h2>
